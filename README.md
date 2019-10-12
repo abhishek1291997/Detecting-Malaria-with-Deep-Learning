@@ -29,6 +29,12 @@ The dataset contains 2 folders - Infected - Uninfected
 
 And a total of 27,558 images.
 
+## Working
+- Firstly, I imported all the useful libraries needed for our project. Then we started by creating empty lists for our training data, test data folder.
+- After all this, get all the images from directories to predefined empty lists, by reading them and resizing them so that all the images are of same size. After this, start making the model and training the data.
+- The main **challenge** faced while making this project is less amount of data, because this is the technology which is useful in near future to detect the malaria by AI, so we need to be accurate as much as possible.
+- For this we used **Data Augmentation** to used the current data we have to generate more data which is much more feasible.
+
 ## Acknowledgements
 This Dataset is taken from the official NIH Website: https://ceb.nlm.nih.gov/repositories/malaria-datasets/ And uploaded here, so anybody trying to start working with this dataset can get started immediately, as to download the dataset from NIH website is quite slow.
 
